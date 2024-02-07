@@ -1,0 +1,10 @@
+.red {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkred;
+}
+
+.container {
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}

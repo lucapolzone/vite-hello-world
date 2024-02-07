@@ -1,20 +1,25 @@
 <script>
+  import AppTitle from './components/AppTitle.vue';
+
   export default {
     data() {
       return {
-        title: 'Vue project',
-      }
-    }
-  }
+        title: 'La mia prima app con Vite!',
+      };
+    },
+   
+    components: { AppTitle },
+  };
 </script>
 
 <template>
-  <h1> {{ "La mia prima app con Vite!" }} </h1>
+  <div class="container">
+    <h1 class="red"> {{ title }} </h1>
+
+    <AppTitle />
+  </div>
 </template>
 
 <style>
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: darkred;
-}
+@import url('./assets/style.css');
 </style>
