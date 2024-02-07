@@ -1,12 +1,15 @@
 .red {
-  font-family: Arial, Helvetica, sans-serif;
   color: darkred;
 }
 
 .container {
-  width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
   text-align: center;
-  margin: 0 auto;
   border: 2px solid #e0e0e0;
-  border-radius: 20px;
+  margin: 1rem auto;
+}
+
+.jumbotron {
+  width: 100%;
 }
