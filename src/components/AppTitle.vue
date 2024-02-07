@@ -1,12 +1,16 @@
 <script>
-  export default {};
+  export default {
+    data() {
+      return {
+        title: 'La mia prima app con Vite!',
+      };
+    },
+  };
 </script>
 
 <template>
   <div class="container">
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi deleniti ipsa id odit odio molestias repellendus, tempore quo praesentium blanditiis minus quos mollitia inventore, earum eos, esse neque et quaerat!
-    </p>
+    <h1 class="red"> {{ title }} </h1>
   </div>
 </template>
 
